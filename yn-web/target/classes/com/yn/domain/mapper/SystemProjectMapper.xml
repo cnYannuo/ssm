@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yn.domain.mapper.SystemProjectMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yn.domain.model.po.SystemProjectPO">
+        <id column="project_id" property="projectId"/>
+        <result column="project_icon" property="projectIcon"/>
+        <result column="project_banner" property="projectBanner"/>
+        <result column="project_theme" property="projectTheme"/>
+        <result column="project_base_path" property="projectBasePath"/>
+        <result column="project_status" property="projectStatus"/>
+        <result column="project_name" property="projectName"/>
+        <result column="project_title" property="projectTitle"/>
+        <result column="project_description" property="projectDescription"/>
+        <result column="create_time" property="createTime"/>
+        <result column="orders" property="orders"/>
+    </resultMap>
+
+</mapper>

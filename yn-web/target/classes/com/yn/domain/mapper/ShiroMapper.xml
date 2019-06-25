@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yn.domain.mapper.ShiroMapper">
+  
+  
+  <select id="getRoles" parameterType="java.lang.String" resultType="java.lang.String">
+   SELECT
+  	A.role_id
+     FROM
+	system_role A
+    LEFT JOIN system_user B ON A.role_id = B.role_id
+    WHERE  B.user_name =#{loginNo} AND  B.locked=0
+  
+  </select>  
+  
+
+    </mapper>
