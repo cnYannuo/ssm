@@ -38,7 +38,7 @@
         <poi-ooxml.version>3.17</poi-ooxml.version>
         <hutool-all.version>4.1.19</hutool-all.version>
         <xercesImpl.version>2.11.0</xercesImpl.version>
-        <commons-beanutils.version>1.9.3</commons-beanutils.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <swagger.version>2.9.2</swagger.version>
     </properties>
 
